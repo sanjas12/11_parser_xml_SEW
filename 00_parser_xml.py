@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import pandas as pd
+# import pandas as pd
 import pprint
 
 header = {}
@@ -57,9 +57,9 @@ header.pop('Overview')
 pprint.pprint(header)
 # print('list_section: ', list_section)
 
-df = pd.DataFrame(header)
+# df = pd.DataFrame(header)
 
 # df.set_axis(temp_header, axis=1)
 #
 
-print(df.head(4))
+# print(df.head(4))
