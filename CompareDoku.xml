@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="CompareDoku.xsl"?>
+<Doku>
+  <Firm>SEW-EURODRIVE GmbH &amp; Co KG</Firm>
+  <Title>Parameter comparison documentation</Title>
+  <Author>stovpyaga</Author>
+  <Date>20.05.2020 12:29:44</Date>
+  <Comment />
+  <Quelle />
+  <Quelle1>170113_3SHSP_1B.vda</Quelle1>
+  <Quelle2>C:\Users\stovpyaga\Downloads\attachments\2???-1?.vda</Quelle2>
+  <VergleichsOptionen>Use comparison bit, Only IPOS variables 0-127, Display differences only</VergleichsOptionen>
+  <VergleichsErgebnis>Selected data ranges are NOT identical!</VergleichsErgebnis>
+  <ToolAndVersion>ComparePlug 6.4.0.3</ToolAndVersion>
+  <DokuVersion>1.0</DokuVersion>
+  <Unterschiede>true</Unterschiede>
+  <DokuSections>
+    <DokuSection>
+      <Title>Overview</Title>
+      <Description> </Description>
+      <DokuSubSections>
+        <DokuSubSection>
+          <Title>Overview</Title>
+          <DokuTables>
+            <DokuTable>
+              <UseOriginalTextFormat>false</UseOriginalTextFormat>
+              <Title />
+              <AdditionalInfo />
+              <DokuCols>
+                <DokuColumn>
+                  <Width>25</Width>
+                  <Name>=?</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>180</Width>
+                  <Name>Designation</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>150</Width>
+                  <Name>Source 1</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>150</Width>
+                  <Name>Source 2</Name>
+                </DokuColumn>
+              </DokuCols>
+              <DokuRows>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Unit type</string>
+                    <string>MXA (13)</string>
+                    <string>MXA (13)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Unit series</string>
+                    <string>MOVIAXIS  (20)</string>
+                    <string>MOVIAXIS  (20)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Unit variant</string>
+                    <string>A  (1)</string>
+                    <string>A  (1)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Power</string>
+                    <string>0 W</string>
+                    <string>0 W</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Voltage range</string>
+                    <string>400 V</string>
+                    <string>400 V</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Rated current</string>
+                    <string>24 A</string>
+                    <string>24 A</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Standard bus system</string>
+                    <string>No bus  (1)</string>
+                    <string>No bus  (1)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Standard encoder system</string>
+                    <string>Hiperface/Resolver  (13)</string>
+                    <string>Hiperface/Resolver  (13)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Internal firmware version</string>
+                    <string>3</string>
+                    <string>3</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Unit part number</string>
+                    <string>1 820 880 0.32</string>
+                    <string>1 820 880 0.32</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Technology unit</string>
+                    <string>No  (0)</string>
+                    <string>No  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Technology function</string>
+                    <string>Standard  (0)</string>
+                    <string>Standard  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Write filter data type</string>
+                    <string>No filter  (0)</string>
+                    <string>No filter  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Write filter index</string>
+                    <string>No filter  (0)</string>
+                    <string>No filter  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Attribute table version</string>
+                    <string>3188724</string>
+                    <string>3188724</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Unit serial number</string>
+                    <string>---</string>
+                    <string>---</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Option identifier 1</string>
+                    <string>XFP11A (Profibus DPV1)  (8)</string>
+                    <string>XFP11A (Profibus DPV1)  (8)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Part number option 1</string>
+                    <string>404760392.16</string>
+                    <string>404760392.16</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Option identifier 2</string>
+                    <string>No option  (0)</string>
+                    <string>No option  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Part number option 2</string>
+                    <string>---</string>
+                    <string>---</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Option identifier 3</string>
+                    <string>No option  (0)</string>
+                    <string>No option  (0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Part number option 3</string>
+                    <string>---</string>
+                    <string>---</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>Current error</string>
+                    <string>No fault  (0,0)</string>
+                    <string>No fault  (0,0)</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>=</string>
+                    <string>PROFINET device name</string>
+                    <string>[Not installed]</string>
+                    <string>[Not installed]</string>
+                  </Items>
+                  <HasError>false</HasError>
+                </DokuRow>
+              </DokuRows>
+            </DokuTable>
+          </DokuTables>
+          <PictName />
+          <Anker>overview637255745865160378</Anker>
+        </DokuSubSection>
+      </DokuSubSections>
+      <HasError>false</HasError>
+      <Anker>overview</Anker>
+    </DokuSection>
+    <DokuSection>
+      <Title>Parameters</Title>
+      <Description> </Description>
+      <DokuSubSections>
+        <DokuSubSection>
+          <Title>Parameters</Title>
+          <DokuTables>
+            <DokuTable>
+              <UseOriginalTextFormat>false</UseOriginalTextFormat>
+              <Title />
+              <AdditionalInfo />
+              <DokuCols>
+                <DokuColumn>
+                  <Width>25</Width>
+                  <Name>=?</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>90</Width>
+                  <Name>Index/subindex</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>200</Width>
+                  <Name>Designation 1</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>200</Width>
+                  <Name>Designation 2</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>95</Width>
+                  <Name>Scaled value 1</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>217</Width>
+                  <Name>Scaled value 2</Name>
+                </DokuColumn>
+              </DokuCols>
+              <DokuRows>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>8557.0</string>
+                    <string>500 Speed monitoring </string>
+                    <string>500 Speed monitoring </string>
+                    <string>Motor</string>
+                    <string>Off</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9514.1</string>
+                    <string>Data source[0]</string>
+                    <string>Data source[0]</string>
+                    <string>Communication option</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9514.4</string>
+                    <string>Data block length[0]</string>
+                    <string>Data block length[0]</string>
+                    <string>16 </string>
+                    <string>10 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9555.1</string>
+                    <string>0 Torque resolution</string>
+                    <string>0 Torque resolution</string>
+                    <string>1E-03</string>
+                    <string>1E00</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9556.1</string>
+                    <string>0 Torque numerator</string>
+                    <string>0 Torque numerator</string>
+                    <string>1 </string>
+                    <string>1000 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9560.7</string>
+                    <string> System value channel 6</string>
+                    <string> System value channel 6</string>
+                    <string>8326 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9560.8</string>
+                    <string> System value channel 7</string>
+                    <string> System value channel 7</string>
+                    <string>75389 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9560.9</string>
+                    <string> System value channel 8</string>
+                    <string> System value channel 8</string>
+                    <string>74996 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9563.6</string>
+                    <string>Data block length[0]</string>
+                    <string>Data block length[0]</string>
+                    <string>16 </string>
+                    <string>10 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9571.1</string>
+                    <string>Maximum acceleration</string>
+                    <string>Maximum acceleration</string>
+                    <string>5550000 mm/s²</string>
+                    <string>4950000 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9572.1</string>
+                    <string>Maximum deceleration</string>
+                    <string>Maximum deceleration</string>
+                    <string>5550000 mm/s²</string>
+                    <string>4950000 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9573.1</string>
+                    <string>Maximum acceleration</string>
+                    <string>Maximum acceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9574.1</string>
+                    <string>Maximum deceleration</string>
+                    <string>Maximum deceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9576.1</string>
+                    <string>Emergency stop deceleration</string>
+                    <string>Emergency stop deceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9579.1</string>
+                    <string>Maximum positive velocity</string>
+                    <string>Maximum positive velocity</string>
+                    <string>1800000 mm/s</string>
+                    <string>1770000 mm/s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9579.10</string>
+                    <string>Maximum negative velocity</string>
+                    <string>Maximum negative velocity</string>
+                    <string>1800000 mm/s</string>
+                    <string>1770000 mm/s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9592.13</string>
+                    <string>0 Encoder configuration 3</string>
+                    <string>0 Encoder configuration 3</string>
+                    <string>0 </string>
+                    <string>4 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9593.3</string>
+                    <string>Numerator factor</string>
+                    <string>Numerator factor</string>
+                    <string>39996 </string>
+                    <string>1024 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9593.23</string>
+                    <string>Resolution factor numerator encoder 3</string>
+                    <string>Resolution factor numerator encoder 3</string>
+                    <string>39996 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9598.1</string>
+                    <string>0 Source velocity setpoint </string>
+                    <string>0 Source velocity setpoint </string>
+                    <string>Process data buffer channel 0</string>
+                    <string>Local setpoint</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9643.2</string>
+                    <string>Recording channel 2</string>
+                    <string>Recording channel 2</string>
+                    <string>75604 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9643.3</string>
+                    <string>Recording channel 3</string>
+                    <string>Recording channel 3</string>
+                    <string>75516 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9643.4</string>
+                    <string>Recording channel 4</string>
+                    <string>Recording channel 4</string>
+                    <string>75656 </string>
+                    <string>75322 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9643.5</string>
+                    <string>Recording channel 5</string>
+                    <string>Recording channel 5</string>
+                    <string>75322 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9643.6</string>
+                    <string>Recording channel 6</string>
+                    <string>Recording channel 6</string>
+                    <string>75046 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9650.1</string>
+                    <string>Trigger selection</string>
+                    <string>Trigger selection</string>
+                    <string>Manual or fault</string>
+                    <string>Analog or fault</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9733.3</string>
+                    <string>Encoder type</string>
+                    <string>Encoder type</string>
+                    <string>SSI</string>
+                    <string>No encoder</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9734.1</string>
+                    <string>0 LI controller</string>
+                    <string>0 LI controller</string>
+                    <string>0.000924 H</string>
+                    <string>0.001098 H</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9736.1</string>
+                    <string>0 Leakage inductance</string>
+                    <string>0 Leakage inductance</string>
+                    <string>0.001527 H</string>
+                    <string>0.001533 H</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9743.1</string>
+                    <string>Trigger lag </string>
+                    <string>Trigger lag </string>
+                    <string>89 %</string>
+                    <string>99 %</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9749.13</string>
+                    <string>Encoder monitoring</string>
+                    <string>Encoder monitoring</string>
+                    <string>On</string>
+                    <string>Off</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9751.11</string>
+                    <string>0 Machine zero point offset</string>
+                    <string>0 Machine zero point offset</string>
+                    <string>253191833 </string>
+                    <string>18728099 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9751.13</string>
+                    <string>Machine zero point offset</string>
+                    <string>Machine zero point offset</string>
+                    <string>-149322 </string>
+                    <string>102370 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9753.36</string>
+                    <string>0 Shell marker 30 P3[6]</string>
+                    <string>0 Shell marker 30 P3[6]</string>
+                    <string>39996 </string>
+                    <string>10 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9753.37</string>
+                    <string>0 Shell marker 30 P3[7]</string>
+                    <string>0 Shell marker 30 P3[7]</string>
+                    <string>1 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9753.38</string>
+                    <string>0 Shell marker 30 P3[8]</string>
+                    <string>0 Shell marker 30 P3[8]</string>
+                    <string>1 </string>
+                    <string>20000 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.11</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 06 (high)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.12</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 06 (low)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.13</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 07 (high)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.14</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 07 (low)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.15</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 08 (high)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9770.16</string>
+                    <string> Data source[0]</string>
+                    <string> Data source[0]</string>
+                    <string>Out PD: Channel 08 (low)</string>
+                    <string>None</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9781.1</string>
+                    <string>0 Track offset encoder 1</string>
+                    <string>0 Track offset encoder 1</string>
+                    <string>-107872256 </string>
+                    <string>-29556736 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9798.1</string>
+                    <string>Monitor software limit switch negative</string>
+                    <string>Monitor software limit switch negative</string>
+                    <string>Off</string>
+                    <string>On</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9801.1</string>
+                    <string>Monitor positive software limit switch</string>
+                    <string>Monitor positive software limit switch</string>
+                    <string>Off</string>
+                    <string>On</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9807.1</string>
+                    <string>0 Serial number encoder 1[0]</string>
+                    <string>0 Serial number encoder 1[0]</string>
+                    <string>842285394 </string>
+                    <string>892617299 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9807.2</string>
+                    <string>0 Serial number encoder 1[1]</string>
+                    <string>0 Serial number encoder 1[1]</string>
+                    <string>925905200 </string>
+                    <string>808726832 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9813.1</string>
+                    <string>Activate Ixt current reduction</string>
+                    <string>Activate Ixt current reduction</string>
+                    <string>On</string>
+                    <string>Off</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9818.20</string>
+                    <string>Part number</string>
+                    <string>Part number</string>
+                    <string>37 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9821.1</string>
+                    <string>0 Scanning frequency</string>
+                    <string>0 Scanning frequency</string>
+                    <string>1.0 ms</string>
+                    <string>0.5 ms</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9823.1</string>
+                    <string>Unit signature[0]</string>
+                    <string>Unit signature[0]</string>
+                    <string>0 </string>
+                    <string>1383426131 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9823.2</string>
+                    <string>Unit signature[1]</string>
+                    <string>Unit signature[1]</string>
+                    <string>0 </string>
+                    <string>1702000239 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9823.3</string>
+                    <string>Unit signature[2]</string>
+                    <string>Unit signature[2]</string>
+                    <string>0 </string>
+                    <string>1299149935 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9823.4</string>
+                    <string>Unit signature[3]</string>
+                    <string>Unit signature[3]</string>
+                    <string>0 </string>
+                    <string>1912602624 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9832.1</string>
+                    <string>Scanning time </string>
+                    <string>Scanning time </string>
+                    <string>0.002 s</string>
+                    <string>1 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9834.1</string>
+                    <string>0 Encoder offset</string>
+                    <string>0 Encoder offset</string>
+                    <string>-0.0038055556 U</string>
+                    <string>-0.0178611111 U</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9885.1</string>
+                    <string>Use control bit "Feed enable"</string>
+                    <string>Use control bit "Feed enable"</string>
+                    <string>Yes</string>
+                    <string>No</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9885.5</string>
+                    <string>Lag error window positioning</string>
+                    <string>Lag error window positioning</string>
+                    <string>164 mm</string>
+                    <string>328 mm</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9961.1</string>
+                    <string>Software limit switch negative</string>
+                    <string>Software limit switch negative</string>
+                    <string>-72090 mm</string>
+                    <string>-82248 mm</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9998.3</string>
+                    <string>Position mode encoder 3</string>
+                    <string>Position mode encoder 3</string>
+                    <string>With overflow counter</string>
+                    <string>Linear operation</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10054.5</string>
+                    <string>0 Measuring current</string>
+                    <string>0 Measuring current</string>
+                    <string>100 %</string>
+                    <string>80 %</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10064.1</string>
+                    <string>Positive software limit switch</string>
+                    <string>Positive software limit switch</string>
+                    <string>72090 mm</string>
+                    <string>82248 mm</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10214.3</string>
+                    <string>Hysteresis emulation encoder 3</string>
+                    <string>Hysteresis emulation encoder 3</string>
+                    <string>2 </string>
+                    <string>1 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.46</string>
+                    <string>Number of multi-turn bits</string>
+                    <string>Number of multi-turn bits</string>
+                    <string>1 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.50</string>
+                    <string>Encoder refresh time</string>
+                    <string>Encoder refresh time</string>
+                    <string>0 s</string>
+                    <string>0.001 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.51</string>
+                    <string>Encoder startup time</string>
+                    <string>Encoder startup time</string>
+                    <string>1.5 s</string>
+                    <string>0.2 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10400.47</string>
+                    <string>Hiperface parameter: Startup time encoder 3</string>
+                    <string>Hiperface parameter: Startup time encoder 3</string>
+                    <string>0.001 s</string>
+                    <string>0.01 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10440.2</string>
+                    <string>Setpoint velocity local</string>
+                    <string>Setpoint velocity local</string>
+                    <string>0 mm/s</string>
+                    <string>2000 mm/s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+              </DokuRows>
+            </DokuTable>
+          </DokuTables>
+          <PictName />
+          <Anker>parameters637255745865170379</Anker>
+        </DokuSubSection>
+      </DokuSubSections>
+      <HasError>true</HasError>
+      <Anker>parameters</Anker>
+    </DokuSection>
+    <DokuSection>
+      <Title>Startup parameters</Title>
+      <Description> </Description>
+      <DokuSubSections>
+        <DokuSubSection>
+          <Title>Startup parameters</Title>
+          <DokuTables>
+            <DokuTable>
+              <UseOriginalTextFormat>false</UseOriginalTextFormat>
+              <Title />
+              <AdditionalInfo />
+              <DokuCols>
+                <DokuColumn>
+                  <Width>25</Width>
+                  <Name>=?</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>142</Width>
+                  <Name>Index/subindex</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>200</Width>
+                  <Name>Designation 1</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>188</Width>
+                  <Name>Scaled value 1</Name>
+                </DokuColumn>
+                <DokuColumn>
+                  <Width>254</Width>
+                  <Name>Scaled value 2</Name>
+                </DokuColumn>
+              </DokuCols>
+              <DokuRows>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>8557.0</string>
+                    <string>500 Speed monitoring </string>
+                    <string>Motor</string>
+                    <string>Off</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9555.1</string>
+                    <string>0 Torque resolution</string>
+                    <string>1E-03</string>
+                    <string>1E00</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9571.1</string>
+                    <string>Maximum acceleration</string>
+                    <string>5550000 mm/s²</string>
+                    <string>4950000 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9572.1</string>
+                    <string>Maximum deceleration</string>
+                    <string>5550000 mm/s²</string>
+                    <string>4950000 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9573.1</string>
+                    <string>Maximum acceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9574.1</string>
+                    <string>Maximum deceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9576.1</string>
+                    <string>Emergency stop deceleration</string>
+                    <string>6000000 mm/s²</string>
+                    <string>9999900 mm/s²</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9579.1</string>
+                    <string>Maximum positive velocity</string>
+                    <string>1800000 mm/s</string>
+                    <string>1770000 mm/s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9579.10</string>
+                    <string>Maximum negative velocity</string>
+                    <string>1800000 mm/s</string>
+                    <string>1770000 mm/s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9593.3</string>
+                    <string>Numerator factor</string>
+                    <string>39996 </string>
+                    <string>1024 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9733.3</string>
+                    <string>Encoder type</string>
+                    <string>SSI</string>
+                    <string>No encoder</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9734.1</string>
+                    <string>0 LI controller</string>
+                    <string>0.000924 H</string>
+                    <string>0.001098 H</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9736.1</string>
+                    <string>0 Leakage inductance</string>
+                    <string>0.001527 H</string>
+                    <string>0.001533 H</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9753.38</string>
+                    <string>0 Shell marker 30 P3[8]</string>
+                    <string>1 </string>
+                    <string>20000 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9818.20</string>
+                    <string>Part number</string>
+                    <string>37 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9821.1</string>
+                    <string>0 Scanning frequency</string>
+                    <string>1.0 ms</string>
+                    <string>0.5 ms</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>9834.1</string>
+                    <string>0 Encoder offset</string>
+                    <string>-0.0038055556 U</string>
+                    <string>-0.0178611111 U</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10214.3</string>
+                    <string>Hysteresis emulation encoder 3</string>
+                    <string>2 </string>
+                    <string>1 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.46</string>
+                    <string>Number of multi-turn bits</string>
+                    <string>1 </string>
+                    <string>0 </string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.50</string>
+                    <string>Encoder refresh time</string>
+                    <string>0 s</string>
+                    <string>0.001 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10238.51</string>
+                    <string>Encoder startup time</string>
+                    <string>1.5 s</string>
+                    <string>0.2 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+                <DokuRow>
+                  <Items>
+                    <string>&lt;&gt;</string>
+                    <string>10400.47</string>
+                    <string>Hiperface parameter: Startup time encoder 3</string>
+                    <string>0.001 s</string>
+                    <string>0.01 s</string>
+                  </Items>
+                  <HasError>true</HasError>
+                </DokuRow>
+              </DokuRows>
+            </DokuTable>
+          </DokuTables>
+          <PictName />
+          <Anker>startup parameters637255745865170379</Anker>
+        </DokuSubSection>
+      </DokuSubSections>
+      <HasError>true</HasError>
+      <Anker>startup parameters</Anker>
+    </DokuSection>
+  </DokuSections>
+</Doku>
