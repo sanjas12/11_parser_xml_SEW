@@ -5,23 +5,34 @@ import pprint
 header = {}
 list_section = []
 file = 'CompareDoku.xml'
+file = 'CompareDoku_2\CompareDoku_2.xml'
 
 tree = ET.parse(file)
 root = tree.getroot()
 
+##print(root)
+
+##find source_1 and source_2
+source_dict = {}
 for child in root:
+    child_str = str(child.text)
     if child.tag == 'Quelle1':
         source_1 = child.tag
+        source_1 = child_str.split('\\')[-1]
+        source_dict['source_1'] = source_1
     if child.tag == 'Quelle2':
         source_2 = child.tag
+        source_2 = child_str.split('\\')[-1]
+        source_dict['source_2'] = source_2
 
-
-# print(source_1, source_2)
+##print(source_1, source_2)
+pprint.pprint(source_dict)
 
 for child in root:
     temp_header = {}
     for index, i in enumerate(child):
         if i[0].text not in list_section:
+##            print(i[0].text)
             list_section.append(i[0].text)
         # print(index, i.tag, len(i))
         if len(i) > 0:
@@ -53,9 +64,14 @@ for child in root:
 
 # print(temp_header)
 
+
+
 header.pop('Overview')
 pprint.pprint(header)
-# print('list_section: ', list_section)
+
+
+
+print('list_section: ', list_section)
 
 # df = pd.DataFrame(header)
 
