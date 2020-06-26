@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 # import pandas as pd
 import pprint
+import string
 
 header = {}
 list_section = []
@@ -29,8 +30,9 @@ for child in root:
 pprint.pprint(source_dict)
 
 for child in root:
-    temp_header = {}
     for index, i in enumerate(child):
+        parameter_dict = {}
+        ##        print(parameter_dict)
         if i[0].text not in list_section:
             ##            print(i[0].text)
             list_section.append(i[0].text)
@@ -56,31 +58,34 @@ for child in root:
                                                         if len(______) > 0:
                                                             for index_8, Items in enumerate(______):
                                                                 ##                                                                print(Items.tag, Items.text)
-                                                                if len(Items) > 0 and Items[0].text == '<>' and Items[
-                                                                    1].text != 'Range does not exist':
-                                                                    temp_header.setdefault(Items[1].text, [])
-                                                                    temp_header[Items[1].text].append(Items[2].text)
-                                                                    temp_header[Items[1].text].append(Items[3].text)
-                                                                    print(Items[1].text, Items[2].text, Items[3].text)
-                                                                    print('\\' * 10)
+                                                                if 0 < len(Items) <= 4 and Items[0].text == '<>' and \
+                                                                        str(Items[1].text)[0] not in string.digits and \
+                                                                        Items[1].text != 'Access attributes' and \
+                                                                        Items[2].text != 'Range does not exist':
+                                                                    parameter_dict.setdefault(Items[1].text, [])
+                                                                    parameter_dict[Items[1].text].append(Items[2].text)
+                                                                    parameter_dict[Items[1].text].append(Items[3].text)
+                                                                elif len(Items) <= 5 and Items[0].text == '<>':
+                                                                    print('ddddd')
+        ##                                                                    print(Items[1].text, Items[2].text, Items[3].text)
+        ##                                                                    print('\\'*10)
 
-        header[i[0].text] = temp_header
-
-##print(temp_header.keys())
+        header[i[0].text] = parameter_dict
+##        print(parameter_dict.keys())
+##        print('*'*10)
 
 
 ##header.pop('Overview')
 header.pop('Parameter info')
 header.pop('Scope data')
+##print(header.keys())
 
-##pprint.pprint(header)
-
+pprint.pprint(header)
 
 ##print('list_section: ', list_section)
 
 # df = pd.DataFrame(header)
 
 # df.set_axis(temp_header, axis=1)
-#
 
 # print(df.head(4))
